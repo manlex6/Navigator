@@ -1,13 +1,13 @@
 import React from 'react'
 import propTypes from 'prop-types'
 
-var Text = () => {
-  return <input></input>
+var Text = element => {
+  return <input key={element.id}></input>
 }
 
 var Group = element => {
   return (
-    <div>
+    <div key={element.id}>
       <h3>Group</h3>
       <div>{element.elements.map(createElement)}</div>
     </div>
