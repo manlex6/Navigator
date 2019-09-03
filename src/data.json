@@ -1,0 +1,12 @@
+{
+  "elements": [
+    { "type": "text", "id": "339f6201-4293-415e-a7ef-9c01e638401a" },
+    {
+      "type": "group",
+      "id": "7ce19cf5-b85a-4199-860d-b17f9033a986",
+      "elements": [
+        { "type": "text", "id": "ca1b028b-8fcd-4da2-b336-bc683e74f76c" }
+      ]
+    }
+  ]
+}
